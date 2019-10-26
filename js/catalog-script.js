@@ -29,7 +29,7 @@ cartClose.addEventListener("click", function (evt) {
   cartPopup.classList.remove("modal-show");
 });
 
-// // Событие по клику на кнопку продолжить покупки
+// Событие по клику на кнопку продолжить покупки
 cartContinue.addEventListener("click", function (evt) {
   evt.preventDefault();
   cartPopup.classList.remove("modal-show");

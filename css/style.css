@@ -302,7 +302,7 @@ body {
 
 .search-form__input {
   width: 100%;
-  min-height: 42px;
+  height: 42px;
   padding-left: 48.5px;
 
   font-size: 17px;
@@ -614,6 +614,10 @@ body {
   color: rgba(0, 0, 0, 0.3);
 }
 
+.user__link-registration {
+  padding-left: 25px;
+}
+
 .user__icon-login,
 .user__icon,
 .user__icon-logout {
@@ -633,11 +637,11 @@ body {
 }
 
 .user__link-text {
-  padding-left: 13px;
+  padding-left: 10px;
 }
 
 .user__link .user__icon-login {
-  margin-left: -11px;
+  margin-left: -7px;
 }
 
 .user__item-registration {
@@ -1282,7 +1286,11 @@ body {
   position: relative;
   left: -5px;
 
-  justify-content: flex-start;
+  -webkit-box-pack: start;
+
+      -ms-flex-pack: start;
+
+          justify-content: flex-start;
 
   padding: 10px;
   padding-left: 35px;
@@ -2143,8 +2151,7 @@ body {
 
 .field-text__input,
 .field-text__textarea {
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 8px 16px;
 
   font: inherit;
   font-family: "PT Sans", "Verdana", sans-serif;
@@ -2156,7 +2163,7 @@ body {
 
 .field-text__input {
   width: 100%;
-  min-height: 38px;
+  height: 38px;
 }
 
 .field-text__input::-webkit-input-placeholder,
